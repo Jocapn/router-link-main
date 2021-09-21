@@ -1,0 +1,7 @@
+<h3>Users</h3>
+
+<ul>
+    <li (click)="onSelect(users)" *ngFor="let users of users"> 
+        <span>{{ users.id }}</span> {{users.name}}
+    </li>
+</ul>
